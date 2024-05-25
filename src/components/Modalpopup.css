@@ -1,0 +1,43 @@
+.main{
+    width:900px;
+    margin:10px 20px;
+}
+
+.heading{
+align-items:center;
+justify-content: space-between;
+display:flex;
+}
+
+
+.button{
+    background: rgb(15, 166, 225);
+    border-radius: 12px;
+    border:none; 
+    color:white;
+    padding:10px 12px; 
+    cursor: pointer;
+
+  }
+  h1{
+    text-align:'left'
+}
+.task-dg{
+    justify-content: space-between;
+    cursor: pointer;
+}
+.pop-btn{
+    color:black;
+    border-radius: 17px;
+    padding:5px 10px;
+}
+.pop-btn:enabled{
+    background-color: rgb(135, 206, 235);
+
+}
+.task-ipt{
+    border-radius: 16px;
+    display:flex;
+    justify-content: column;
+    padding: 15px 18px;
+}
